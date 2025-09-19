@@ -1,0 +1,14 @@
+{
+	"en": {
+		"welcome": "Welcome to Calculator!",
+		"first_number": "What is the first number?",
+		"invalid_number": "Hmm... that doesn't look like a valid number",
+		"second_number": "What is the second number?",
+		"operation": "What operation?\n1) Add\n2) Substract\n3) Multiply\n4) Divide",
+		"operation_error": "You must choose 1, 2, 3 or 4",
+		"ask_again": "Would like like to perform another operation? Y or N."
+		},
+	"my": {
+		"welcome": "Selamat Datang"
+	}
+}
