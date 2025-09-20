@@ -47,8 +47,10 @@ while True:
     # SHOW the user and computer choice
     prompt(f'You have chosen {user_choice}. The computer has chosen {computer_choice}')
 
-    if user_wins(user_choice, computer_choice):
-        prompt("You win!")
+    if user_choice == computer_choice:
+        prompt("It's a tie!")
+    elif user_wins(user_choice, computer_choice):
+            prompt("You win!")
     else:
         prompt("Computer wins!")
 
